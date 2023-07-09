@@ -1,0 +1,16 @@
+footer{
+	min-height: 50px;
+	width: 100%;
+	background-color: var(--mainColor);
+	margin-top: 80px;
+	color: white;
+	font-family: Nunito, sans-serif;
+	text-align: center;
+	padding: 150px 0 0 0;
+}
+footer a{
+	background-color: transparent;
+	text-decoration: underline;
+	cursor: pointer;
+	padding: 0;
+}

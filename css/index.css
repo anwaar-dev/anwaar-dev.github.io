@@ -1,0 +1,196 @@
+html{scroll-behavior: smooth;}
+body{
+	background-color: var(--bgColor);
+	margin: 0;
+	border: 0;
+	padding: 30px 0 0 0;
+	font-family: Braah One, sans-serif;
+	font-size: 18px;
+	user-select: none;
+}
+section{
+	margin: 10px 80px;
+}
+a{
+	padding: 5px 10px;
+	background-color: var(--mainColor);
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+h2{
+	font-size: 36px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    color: var(--mainColor);
+}
+span{color: var(--mainColor);font-family: Geologica, sans-serif;}
+hr{border: 1px solid #c6c6c6}
+
+
+/* SECTION 1  */
+#sec1 h4{
+	font-size: 38px;
+    width: 85%;
+    text-align: center;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    font-family: Kanit, sans-serif;
+}
+#sec1 h4:after{content: "Enhance Your CTR Instantly through Compelling Thumbnail Designs!"}
+#sec1{
+	color: var(--fontColorDark);
+	margin-top: 25vh;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#sec1 h1{
+	font-size: 104px;
+	margin-bottom: 18px;
+	color: var(--mainColor);
+}
+#sec1 p{width: 50%;font-family: Nunito, sans-serif;}
+
+
+/* SECTION 2  */
+#sec2{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+#sec2 content{
+	margin: 12px 10px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 8px 0px #00000082;
+	padding: 10px;
+}
+#sec2 content:hover div.thumbnail{background-image:none;}
+#sec2 div.thumbnail{
+	width: 240px;
+	height: 135px;
+	background-color: white;
+	background-image: url(../images/dummy.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#sec2 h6{
+	margin: 10px 0;
+	font-family: Geologica, sans-serif;
+	font-size: 13px;
+}
+/* SECTION 3  */
+#sec3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+#sec3 a{
+	margin-top: 50px;
+}
+
+/* SECTION 4  */
+#sec4{
+	display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+#sec4 content{
+	width: 40%;
+	max-width: 300px;
+	min-height: 400px;
+	min-width: 280px;
+	border-radius: 8px;
+	background-color: var(--mainColor);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	box-shadow: 0px 4px 7px 0px gray;
+}
+#sec4 content div.sec4Div1{
+	width: 240px;
+	height: 135px;
+	display: block;
+	background-color: pink;
+	transform: translateY(-40%);
+	background-image: url(../images/thumbnails/7.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	box-shadow: 0px 2px 12px 2px #000000ab;
+}
+#sec4 content div.sec4Div2{
+	min-height: 230px;
+	width: 90%;
+	display: flex;
+	border-radius: 8px;
+	background-color: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: Geologica, sans-serif;
+}
+#sec4 content div.sec4Div2:hover{transform: translateY(-5px);transition-duration: 0.15s}
+#sec4 content div.sec4Div2 h2{
+	width: 100%;
+	text-align: center;
+	font-size: 68px;
+	margin: 0;
+	font-family: Braah One, sans-serif;
+}
+#sec4 content div.sec4Div2 h5{font-family: Geologica, sans-serif;}
+#sec4 content div.sec4Div2 a{padding: 8px 16px}
+#sec4 content.sec4Ctr{
+	background: 0;
+	box-shadow: none;
+	width: fit-content;
+	color: var(--fontColor);
+	align-self: center;
+	font-size: 26px;
+	font-family: Braah One, sans-serif;
+}
+/* Section: 5  */
+#sec5{
+    margin: 110px 18% 80px 18%;
+}
+#sec5 h1{
+	font-size: 34px;
+	margin-bottom: 0;
+	color: var(--mainColor);
+}
+#sec5 p{font-family: Nunito, sans-serif;max-width: 590px;font-size: 19px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+section{margin: 10px 30px;}
+#sec1{margin-top: 15vh}
+#sec1 h4{font-size: 23px;}
+#sec1 h4:after{content: "Boost Your CTR Instantly with Stunning Thumbnails!"}
+#sec4 content.sec4Ctr{display: none;}
+}

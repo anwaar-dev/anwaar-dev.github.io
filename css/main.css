@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Braah+One&family=Geologica&display=swap');
+:root {
+  --mainColor: rgb(240, 0, 36);
+  --bgColor: rgb(250, 250, 251);
+  --fontColor: #363636;
+  --fontColorDark: #232323;
+}
+body{
+  text-decoration: none;
+}

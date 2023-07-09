@@ -1,0 +1,59 @@
+nav{
+	background-image: url(../images/logo2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 75px;
+	background-color: var(--bgColor);
+	width: 95vw;
+	height: 60px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+	position: sticky;
+	top: 0px;
+	left: 0;
+	font-family: Nunito, sans-serif;
+	background-size: 150px;
+    background-position-y: 5px;
+    padding-right: 30px;
+	z-index: 100;
+}
+nav a{
+	background: none;
+	margin: 0 11px;
+	color: var(--fontColorDark);
+	text-decoration: none;
+	font-size: 17px;
+}
+nav a:hover{
+	color: var(--mainColor);
+}
+nav a.currentPage{
+	background-color: var(--mainColor);
+	color: white;
+	border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+nav{
+	background-position-x: 5px;
+	background-size: 140px;
+    padding-right: 0px;
+}
+nav a{
+	margin: 0 0;
+	font-size: 15px;
+}
+}
+
