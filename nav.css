@@ -31,7 +31,7 @@ nav a:hover{
 }
 nav a.currentPage{
 	background-color: var(--mainColor);
-	color: white;
+	color: var(--bgColor);
 	border-radius: 6px;
 }
 

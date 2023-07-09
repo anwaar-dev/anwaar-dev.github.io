@@ -14,20 +14,27 @@ section{
 a{
 	padding: 5px 10px;
 	background-color: var(--mainColor);
-	color: white;
+	color: var(--bgColor);
 	border-radius: 5px;
 	text-decoration: none;
 }
 h2{
-	font-size: 36px;
+	font-size: 39px;
     width: 100%;
     text-align: center;
     margin-top: 100px;
     color: var(--mainColor);
+    text-shadow: 0 3px 2px #000000bd;
 }
 span{color: var(--mainColor);font-family: Geologica, sans-serif;}
-hr{border: 1px solid #c6c6c6}
-
+hr{border: 1px solid #343840}
+span.tag{
+    background-color: var(--tag);
+    color: #ffffff8c;
+    border-radius: 6px;
+    padding: 3px 8px;
+    margin: 3px;
+}
 
 /* SECTION 1  */
 #sec1 h4{
@@ -38,7 +45,7 @@ hr{border: 1px solid #c6c6c6}
     margin-right: 7.5%;
     font-family: Kanit, sans-serif;
 }
-#sec1 h4:after{content: "Enhance Your CTR Instantly through Compelling Thumbnail Designs!"}
+/*#sec1 h4:after{content: "Enhance Your CTR Instantly through Compelling Thumbnail Designs!"}*/
 #sec1{
 	color: var(--fontColorDark);
 	margin-top: 25vh;
@@ -66,26 +73,28 @@ hr{border: 1px solid #c6c6c6}
 	flex-wrap: wrap;
 }
 #sec2 content{
-	margin: 12px 10px;
+	margin: 12px 15px;
 	border-radius: 5px;
 	box-shadow: 0px 2px 8px 0px #00000082;
 	padding: 10px;
 }
-#sec2 content:hover div.thumbnail{background-image:none;}
+/*#sec2 content:hover div.thumbnail{background-image:none;}*/
 #sec2 div.thumbnail{
-	width: 240px;
-	height: 135px;
+	width: 300px;
+	height: 300px;
 	background-color: white;
-	background-image: url(../images/dummy.png);
+	background-image: url(images/thumbnails/1.png);
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 #sec2 h6{
-	margin: 10px 0;
+	margin: 5px 0;
 	font-family: Geologica, sans-serif;
 	font-size: 13px;
+	color: var(--fontColor);
 }
+
 /* SECTION 3  */
 #sec3{
 	display: flex;
@@ -168,10 +177,54 @@ hr{border: 1px solid #c6c6c6}
 	margin-bottom: 0;
 	color: var(--mainColor);
 }
-#sec5 p{font-family: Nunito, sans-serif;max-width: 590px;font-size: 19px}
+#sec5 p{
+	font-family: Nunito, sans-serif;
+	max-width: 590px;
+	font-size: 19px;
+	color: var(--fontColor);
+}
 
 
-
+/* SECTION 6  */
+#sec6{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+#sec6 content{
+    margin: 13px 13px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 6px 0px #00000082;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    width: 135px;
+    height: 160px;
+}
+/*#sec6 content:hover div.thumbnail{background-image:none;}*/
+#sec6 div.thumbnail{
+	width: 100px;
+	height: 100px;
+	background-color: transparent;
+	background-image: url(images/thumbnails/1.png);
+	background-position: center;
+	background-size: 70%;
+	background-repeat: no-repeat;
+}
+#sec6 h6{
+	margin: 3px 0;
+	font-family: Geologica, sans-serif;
+	font-size: 13px;
+	color: var(--fontColor);
+}
+#sec6 hr{width: 110px;}
 
 
 
@@ -191,6 +244,6 @@ hr{border: 1px solid #c6c6c6}
 section{margin: 10px 30px;}
 #sec1{margin-top: 15vh}
 #sec1 h4{font-size: 23px;}
-#sec1 h4:after{content: "Boost Your CTR Instantly with Stunning Thumbnails!"}
+/*#sec1 h4:after{content: "Boost Your CTR Instantly with Stunning Thumbnails!"}*/
 #sec4 content.sec4Ctr{display: none;}
 }
