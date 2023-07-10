@@ -7,6 +7,7 @@ body{
 	font-family: Nunito, sans-serif;
 	font-size: 18px;
 	user-select: none;
+	color: var(--fontColor);
 }
 section{
 	margin: 10px 80px;
@@ -27,7 +28,7 @@ h1{
 	font-family: Braah One, sans-serif;
 }
 span{color: var(--mainColor);font-family: Geologica, sans-serif;}
-hr{border: 1px solid #c6c6c6}
+hr{border: 1px solid #343840}
 
 .lock{
 	width: 64px;
