@@ -17,7 +17,20 @@ a{
 	color: var(--bgColor);
 	border-radius: 5px;
 	text-decoration: none;
+
 }
+.but{
+	border-radius: 5px;
+    text-decoration: none;
+    color: #08dce4;
+    background-color: var(--bgColor);
+    border: 2px solid #08dde5;
+    padding: 7px 13px;
+    box-shadow: 0px 2px 7px black;
+    transition-duration: 0.23s;
+}
+.but:hover{transform: translateY(-6px);box-shadow: 0px 2px 12px black;}
+.but:active{opacity: 0.3;transform: translateY(5px);}
 h2{
 	font-size: 39px;
     width: 100%;
@@ -207,6 +220,7 @@ span.tag{
     flex-direction: column;
     width: 135px;
     height: 160px;
+    background-color: #2d333b52;
 }
 /*#sec6 content:hover div.thumbnail{background-image:none;}*/
 #sec6 div.thumbnail{

@@ -9,7 +9,6 @@ body{
 	user-select: none;
 }
 section{
-	background: white;
 	margin: 50px 80px;
 }
 a{
@@ -19,40 +18,63 @@ a{
 	border-radius: 5px;
 	text-decoration: none;
 }
+.but{
+	border-radius: 5px;
+    text-decoration: none;
+    color: #08dce4;
+    background-color: var(--bgColor);
+    border: 2px solid #08dde5;
+    padding: 7px 13px;
+    box-shadow: 0px 2px 7px black;
+    transition-duration: 0.23s;
+}
+.but:hover{transform: translateY(-6px);box-shadow: 0px 2px 12px black;}
+.but:active{opacity: 0.3;transform: translateY(5px);}
 h2{
-	font-size: 36px;
+	font-size: 44px;
     width: 100%;
     text-align: center;
     margin-top: 100px;
     color: var(--mainColor);
+    text-shadow: 0 3px 2px #000000bd;
+}
+h3{
+	font-size: 34px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: var(--fontColor);
+    text-shadow: 0 3px 2px #000000bd;
 }
 span{color: var(--mainColor);font-family: Geologica, sans-serif;}
 
-#allThumbnails{
-	margin-top: 30px;
+.allThumbnails{
+	margin-top: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	flex-wrap: wrap;
 }
-#allThumbnails content{
+.allThumbnails content{
 /*	border: 1px solid gray;*/
 	margin: 12px 10px;
 	border-radius: 5px;
 	box-shadow: 0px 2px 8px 0px #00000082;
 	padding: 10px;
+    color: var(--fontColor);
 }
-#allThumbnails div.thumbnail{
-	width: 279px;
-	aspect-ratio: 16/9;
+.allThumbnails div.thumbnail{
+	width: 240px;
+	aspect-ratio: 1/1;
 	background-color: red;
 	background-image: url(../images/dummy.png);
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
-#allThumbnails h6{
+.allThumbnails h6{
 	margin: 10px 0;
 	font-family: Geologica, sans-serif;
 	font-size: 13px;
