@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 :root {
   --mainColor: #00dbe4;
-  --bgColor: #222831;
+  --bgColor: rgb(13,23,31);
   --footerColor: #20262f;
   --fontColor: #ffffff;
   --fontColorDark: #ffffff;
