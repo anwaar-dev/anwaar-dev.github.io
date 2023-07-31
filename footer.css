@@ -23,6 +23,8 @@ footer content div{
 	font-size: 13px;
 	font-family: Nunito, sans-serif;
 }
+footer content div img{opacity: 0.25;margin: 1px 5px;filter: invert(1);}
+footer content div img:hover{opacity: 0.75}
 footer a{
 	background-color: transparent;
 	text-decoration: none;
