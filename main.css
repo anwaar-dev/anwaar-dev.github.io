@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Braah+One&family=Geologica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 :root {
-  --mainColor: #00dbe4;
-  --bgColor: rgb(13,23,31);
+  --mainColor: #242424;
+  --bgColor: #fff;
   --footerColor: #20262f;
-  --fontColor: #ffffff;
-  --fontColorDark: #ffffff;
+  --fontColor: #242424;
+  --fontColorDark: #242424;
   --orange: #ffcd2a;
   --tag: #2d333b;
 }
 body{
   text-decoration: none;
+}
+
+@font-face {
+  font-family: "sofia-pro";
+  src: url('fonts/Sofia-Pro/sofiapro.woff') format('woff');
 }
