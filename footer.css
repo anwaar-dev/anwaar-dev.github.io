@@ -18,10 +18,9 @@ footer content{
     align-items: center;
     justify-content: space-between;
 }
-footer content div{
-	min-width: 30%;
-	font-size: 13px;
-	font-family: Nunito, sans-serif;
+footer content div{    min-width: 30%;
+    font-size: 13px;
+    font-family: 'sofia-pro', sans-serif;
 }
 footer content div img{opacity: 0.3;margin: 1px 5px;filter: invert(1);}
 footer content div img:hover{opacity: 0.75}
