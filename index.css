@@ -150,6 +150,8 @@ p{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
 }
 #sec3 a{
     margin-top: 10px;
